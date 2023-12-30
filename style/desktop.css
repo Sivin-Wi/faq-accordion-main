@@ -1,0 +1,196 @@
+@media only screen and (min-width:1440px) {
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+
+  :root {
+    --white: hsl(0, 0%, 100%);
+    --LightPink: hsl(275, 100%, 97%);
+    --GrayishPurple: hsl(292, 16%, 49%);
+    --DarkPurple: hsl(292, 42%, 14%);
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--LightPink);
+  }
+
+  .container {
+    position: absolute;
+    z-index: 2;
+    min-height: 450px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--white);
+  }
+
+
+  .container > .subContainer {
+    padding: 20px 0;
+    width: 500px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container > .subContainer > .containerOne {
+    display: flex;
+    align-items: center;
+  }
+
+  .container > .subContainer > .containerOne > .heading {
+    margin-left: 13px;
+    color: var(--DarkPurple);
+    font-weight: 700;
+  }
+
+
+
+  .container > .subContainer > .containerTwo > .subContainerOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    color: var(--DarkPurple);
+    font-weight: 700;
+  }
+
+  .container > .subContainer > .containerTwo > .subContainerOne:hover {
+    color: var(--GrayishPurple);
+    cursor: pointer;
+  }
+
+  .container > .subContainer > .containerTwo > .subContainerTwo {
+    height: 85px;
+    width: 100%;
+    line-height: 1.4;
+    color: var(--GrayishPurple);
+    font-weight: 400;
+  }
+
+  .container > .subContainer > .containerThree > .subContainerOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-color: var(--LightPink);
+    border-top-width: 1.5px;
+    border-top-style: solid;
+    height: 65px;
+    color: var(--DarkPurple);
+    font-weight: 700;
+  }
+
+  .container > .subContainer > .containerThree > .subContainerOne:hover {
+    color: var(--GrayishPurple);
+    cursor: pointer;
+  }
+
+  .container > .subContainer > .containerThree > .subContainerTwo {
+    height: 85px;
+    width: 100%;
+    line-height: 1.4;
+    color: var(--GrayishPurple);
+    font-weight: 400;
+    display: none;
+  }
+
+  .container > .subContainer > .containerFour > .subContainerOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    color: var(--DarkPurple);
+    font-weight: 700;
+    border-top-color: var(--LightPink);
+    border-top-width: 1.5px;
+    border-top-style: solid;
+  }
+
+  .container > .subContainer > .containerFour > .subContainerOne:hover {
+    color: var(--GrayishPurple);
+    cursor: pointer;
+  }
+
+  .container > .subContainer > .containerFour > .subContainerTwo {
+    height: 85px;
+    width: 100%;
+    line-height: 1.4;
+    color: var(--GrayishPurple);
+    font-weight: 400;
+    display: none;
+  }
+
+  .container > .subContainer > .containerFive > .subContainerOne {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    color: var(--DarkPurple);
+    font-weight: 700;
+    border-top-color: var(--LightPink);
+    border-top-width: 1.5px;
+    border-top-style: solid;
+  }
+
+  .container > .subContainer > .containerFive > .subContainerOne:hover {
+    color: var(--GrayishPurple);
+    cursor: pointer;
+  }
+
+  .container > .subContainer > .containerFive > .subContainerTwo {
+    height: 85px;
+    width: 100%;
+    line-height: 1.4;
+    color: var(--GrayishPurple);
+    font-weight: 400;
+    display: none;
+  }
+
+  .img_background {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .img_background > .img {
+    background: url("../assets/images/background-pattern-desktop.svg");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+}
