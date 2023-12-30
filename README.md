@@ -38,9 +38,9 @@
 
 ### What I learned 📕
 
-1. Flex Box
-2. Semantic Elements  
-3. Media Queries
+1. Flex Box.
+2. Semantic Elements.
+3. Media Queries.
 
 ### Useful resources 💻
 
